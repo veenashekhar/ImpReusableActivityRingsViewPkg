@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "reusableactivityringsviewpkg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/veenashekhar/ReusableActivityRIngsViewPkg.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d33fe5dad178fbf3e57df2810dc5481ebf0aff45"
+      }
+    }
+  ],
+  "version" : 2
+}

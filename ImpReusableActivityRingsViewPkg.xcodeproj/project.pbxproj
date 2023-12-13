@@ -15,6 +15,7 @@
 		A486FE642B186ED6009EA775 /* ImpReusableActivityRingsViewPkgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486FE632B186ED6009EA775 /* ImpReusableActivityRingsViewPkgTests.swift */; };
 		A486FE6E2B186ED6009EA775 /* ImpReusableActivityRingsViewPkgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486FE6D2B186ED6009EA775 /* ImpReusableActivityRingsViewPkgUITests.swift */; };
 		A486FE702B186ED6009EA775 /* ImpReusableActivityRingsViewPkgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486FE6F2B186ED6009EA775 /* ImpReusableActivityRingsViewPkgUITestsLaunchTests.swift */; };
+		A486FE7E2B187027009EA775 /* ReusableActivityRIngsViewPkg in Frameworks */ = {isa = PBXBuildFile; productRef = A486FE7D2B187027009EA775 /* ReusableActivityRIngsViewPkg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A486FE7E2B187027009EA775 /* ReusableActivityRIngsViewPkg in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = ImpReusableActivityRingsViewPkg;
+			packageProductDependencies = (
+				A486FE7D2B187027009EA775 /* ReusableActivityRIngsViewPkg */,
+			);
 			productName = ImpReusableActivityRingsViewPkg;
 			productReference = A486FE4D2B186ED5009EA775 /* ImpReusableActivityRingsViewPkg.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = A486FE442B186ED5009EA775;
+			packageReferences = (
+				A486FE7C2B187027009EA775 /* XCRemoteSwiftPackageReference "ReusableActivityRIngsViewPkg" */,
+			);
 			productRefGroup = A486FE4E2B186ED5009EA775 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -426,6 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImpReusableActivityRingsViewPkg/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PWMSAVTJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImpReusableActivityRingsViewPkg/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PWMSAVTJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -586,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A486FE7C2B187027009EA775 /* XCRemoteSwiftPackageReference "ReusableActivityRIngsViewPkg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/veenashekhar/ReusableActivityRIngsViewPkg.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A486FE7D2B187027009EA775 /* ReusableActivityRIngsViewPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A486FE7C2B187027009EA775 /* XCRemoteSwiftPackageReference "ReusableActivityRIngsViewPkg" */;
+			productName = ReusableActivityRIngsViewPkg;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A486FE452B186ED5009EA775 /* Project object */;
 }
