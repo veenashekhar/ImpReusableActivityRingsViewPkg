@@ -41,7 +41,10 @@ struct ContentView: View {
 
     var body: some View {
         ZStack{
+            //Required line of code, before calling the library - to make the background black
             Color.black.edgesIgnoringSafeArea(.all)
+            
+            // Calling the library
             ActivityRingsView(progArr: $progressArray, colorArr: $colorArray).fixedSize()
 
         }
